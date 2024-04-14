@@ -13,7 +13,7 @@ export const StyledTodoPageHeader = styled.div`
     & > h1 {
         flex-grow: 1;
     }
-    & > div {
+    & > form {
         flex-grow: 1;
         display: flex;
         gap: 10px;

@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Todo from "./pages/todo";
+import Todo from "./pages/todo/todo";
 import Header from "./components/layout/header/header";
 import { DefaultSize } from "./components/layout/defaultSIze/defaultSize";
 

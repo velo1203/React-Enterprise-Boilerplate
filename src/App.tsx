@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Todo from "./pages/todo/todo";
 import Header from "./components/layout/header/header";
 import { DefaultSize } from "./components/layout/defaultSIze/defaultSize";
 
@@ -9,7 +8,7 @@ function App() {
             <Header />
             <DefaultSize>
                 <Routes>
-                    <Route path="/" element={<Todo />} />
+                    <Route path="/" element="" />
                 </Routes>
             </DefaultSize>
         </BrowserRouter>
